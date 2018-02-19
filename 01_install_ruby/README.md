@@ -59,7 +59,7 @@ Counting installed Ruby versions: none
 Checking RubyGems settings: OK
 Auditing installed plugins: OK
 ~~~
-2.6. _(Optional)_ Install [ruby-build](https://github.com/rbenv/ruby-build#readme), which provides the
+2.6. Install [ruby-build](https://github.com/rbenv/ruby-build#readme), which provides the
    `rbenv install` command that simplifies the process of
    [installing new Ruby versions](#installing-ruby-versions).
 
