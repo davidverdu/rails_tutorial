@@ -2,9 +2,9 @@
 
 In this tutorial I will show you how to install Ruby in your machine.
 
-## Installation in Ubuntu 16.04
+## Installation in Ubuntu 18.04
 
-I have chosen Ubuntu 16.04 because is a popular OS for developers and also for deployments. If you do not have this OS or you just want to play, you can use [Vagrant](https://www.vagrantup.com/) with this [Vagrantfile](Vagrantfile) as a sandbox to learn. 
+I have chosen Ubuntu 18.04 because is a popular OS for developers and also for deployments. If you do not have this OS or you just want to play, you can use [Vagrant](https://www.vagrantup.com/) with this [Vagrantfile](Vagrantfile) as a sandbox to learn. 
 
 Even though there are many ways to install Ruby in Ubuntu, I prefer using the [rbenv](https://github.com/rbenv/rbenv) Ruby version manager tool. We will install this tool and then a version of a Ruby interpreter to be able to program in this language.
 
@@ -67,24 +67,24 @@ Auditing installed plugins: OK
 $ git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
 ~~~
 
-### 3. Install Ruby 2.3.6
+### 3. Install Ruby 2.5.3
 
 To see all the available Ruby versions for the Rbenv tool you can run this command:
 ~~~sh
 $ rbenv install -l
 ~~~
-In this tutorial I have decided to install Ruby 2.3.6 because is a version high enough to run the latest [Ruby On Rails](http://http://rubyonrails.org/) and not too high to have problems with broken gems. To install this version, just run the following command:
+In this tutorial I have decided to install Ruby 2.5.3 because is the latest stable version. To install this version, just run the following command:
 ~~~sh
-$ rbenv install 2.3.6
+$ rbenv install 2.5.3
 ~~~
 This will take a while to download and compile.
 
-### 4. Set Ruby 2.3.6 as our default interpreter
+### 4. Set Ruby 2.5.3 as our default interpreter
 
 To use locally and globally the downloaded Ruby version, you just need to run this commands:
 ~~~sh
-$ rbenv local 2.3.6
-$ rbenv global 2.3.6
+$ rbenv local 2.5.3
+$ rbenv global 2.5.3
 ~~~
 
 You can test if the correct Ruby is being used by running:
